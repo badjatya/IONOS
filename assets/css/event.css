@@ -1,0 +1,221 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Event Heading start  */
+.eventHeading{
+    text-align: center;
+    color: aqua;
+    font-size: 18px;
+}
+/* Event Heading Ended  */
+
+
+/* Event Day Links Start   */
+.eventDays{
+    border: 1px dotted black;
+    margin: 25px 25px;
+    overflow: auto;
+}
+
+    /* Event Links START*/
+
+.eventLink{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    margin: 0px 10px ;
+    width: 20%;
+    float: left;
+    
+}
+
+.eventLink a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.eventLink a:hover{
+    background-color: aqua;
+}
+
+.eventLink a h2{
+    color: black;
+}
+
+.eventLink a p{
+    color: gray;
+}
+
+.eventDay1{
+    margin-left: 250px;
+}
+
+    /* Event Links END */
+
+/* Event Day Links Start   */
+
+/* -------------------------------------------------------  */
+
+/* EVENT DETAILS CONTAINER START  */
+.eventDetail{
+    /* border: 3px solid yellow; */
+    margin: 25px 25px;
+    overflow: auto;
+    width: 97%;
+    box-sizing: border-box;
+}
+
+    /* Icon Container Start */
+
+.iconContainer1 p , .iconContainer2 p{
+    display: inline-block;
+}
+
+.iconContainer1 , .iconContainer2 {
+    padding-left: 15px;
+}
+.eventSeprateDetail{
+    /* border: 2px solid purple; */
+    border-bottom: 1px dashed gray;
+    border-top: 1px solid black;
+    width: 25%;
+    float: left;
+}
+
+.iconContainer{
+    width: 221px;
+    height: 102px;
+
+}
+
+.headingContainer{
+    width: 492px;
+    height: 102px;
+}
+
+.headingContainer h3{
+    padding-left: 19px;
+    color: red;
+}
+
+.buttonContainer{
+    width: 255px;
+    height: 102px;
+    text-align: center;
+
+
+}
+
+.content{
+    width: 975px;
+    
+}
+
+
+.buttonContainer .moreInfo{
+    text-decoration: none;
+    width: 100px;
+    background-color: aqua;
+    line-height: 95px;
+    
+}
+.buttonContainer a{
+    padding: 10px 35px 10px 35px;
+    font-weight: bold;
+    color: black;
+}
+
+.buttonContainer a:hover{
+    background-color: rgb(119, 202, 202);
+}
+
+
+/* --------------  hidden ------  */
+
+#eventDayTwo{
+    display: none;
+}
+
+#eventDayThree{
+    display: none;
+}
+
+
+/* More info hidden */
+
+#con1{
+    display: none;
+}
+
+#con2{
+    display: none;
+}
+
+#con3{
+    display: none;
+}
+
+#con4{
+    display: none;
+}
+
+#con5{
+    display: none;
+}
+
+#con6{
+    display: none;
+}
+
+#con7{
+    display: none;
+}
+
+#con8{
+    display: none;
+}
+
+#con9{
+    display: none;
+}
+
+#buttonA2{
+    display: none;
+}
+
+#buttonB2{
+    display: none;
+}
+
+#buttonC2{
+    display: none;
+}
+
+#buttonD2{
+    display: none;
+}
+
+#buttonE2{
+    display: none;
+}
+
+#buttonF2{
+    display: none;
+}
+
+#buttonG2{
+    display: none;
+}
+
+#buttonH2{
+    display: none;
+}
+
+#buttonI2{
+    display: none;
+}
+
