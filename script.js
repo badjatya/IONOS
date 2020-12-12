@@ -1,4 +1,4 @@
-3var DAY1 = document.getElementById("oneDay");
+var DAY1 = document.getElementById("oneDay");
 var DAY2 = document.getElementById("twoDay");
 var DAY3 = document.getElementById("threeDay");
 
@@ -81,6 +81,25 @@ function cross03() {
 
 
 
+function plus04() {
+    document.getElementById("detail04").style.display = "block";
+
+    document.getElementById("cross04").style.display = "block";
+
+    document.getElementById("plus04").style.display = "none";
+
+}
+
+function cross04() {
+    document.getElementById("plus04").style.display = "block";
+
+    document.getElementById("detail04").style.display = "none";
+
+    document.getElementById("cross04").style.display = "none";
+
+}
+
+
 function plus05() {
     document.getElementById("detail05").style.display = "block";
 
@@ -100,100 +119,80 @@ function cross05() {
 }
 
 
-function plus05() {
-    document.getElementById("detail05").style.display = "block";
 
-    document.getElementById("cross05").style.display = "block";
+function plus06() {
+    document.getElementById("detail06").style.display = "block";6
+    document.getElementById("cross06").style.display = "block";
 
-    document.getElementById("plus05").style.display = "none";
-
-}
-
-function cross05() {
-    document.getElementById("plus05").style.display = "block";
-
-    document.getElementById("detail05").style.display = "none";
-
-    document.getElementById("cross05").style.display = "none";
+    document.getElementById("plus06").style.display = "none";
 
 }
 
+function cross06() {
+    document.getElementById("plus06").style.display = "block";
 
+    document.getElementById("detail06").style.display = "none";
 
-function plus01() {
-    document.getElementById("detail01").style.display = "block";
-
-    document.getElementById("cross01").style.display = "block";
-
-    document.getElementById("plus01").style.display = "none";
-
-}
-
-function cross01() {
-    document.getElementById("plus01").style.display = "block";
-
-    document.getElementById("detail01").style.display = "none";
-
-    document.getElementById("cross01").style.display = "none";
+    document.getElementById("cross06").style.display = "none";
 
 }
 
 
 
-function plus01() {
-    document.getElementById("detail01").style.display = "block";
+function plus07() {
+    document.getElementById("detail07").style.display = "block";
 
-    document.getElementById("cross01").style.display = "block";
+    document.getElementById("cross07").style.display = "block";
 
-    document.getElementById("plus01").style.display = "none";
-
-}
-
-function cross01() {
-    document.getElementById("plus01").style.display = "block";
-
-    document.getElementById("detail01").style.display = "none";
-
-    document.getElementById("cross01").style.display = "none";
+    document.getElementById("plus07").style.display = "none";
 
 }
 
+function cross07() {
+    document.getElementById("plus07").style.display = "block";
 
+    document.getElementById("detail07").style.display = "none";
 
-function plus01() {
-    document.getElementById("detail01").style.display = "block";
-
-    document.getElementById("cross01").style.display = "block";
-
-    document.getElementById("plus01").style.display = "none";
-
-}
-
-function cross01() {
-    document.getElementById("plus01").style.display = "block";
-
-    document.getElementById("detail01").style.display = "none";
-
-    document.getElementById("cross01").style.display = "none";
+    document.getElementById("cross07").style.display = "none";
 
 }
 
 
 
-function plus01() {
-    document.getElementById("detail01").style.display = "block";
+function plus08() {
+    document.getElementById("detail08").style.display = "block";
 
-    document.getElementById("cross01").style.display = "block";
+    document.getElementById("cross08").style.display = "block";
 
-    document.getElementById("plus01").style.display = "none";
+    document.getElementById("plus08").style.display = "none";
 
 }
 
-function cross01() {
-    document.getElementById("plus01").style.display = "block";
+function cross08() {
+    document.getElementById("plus08").style.display = "block";
 
-    document.getElementById("detail01").style.display = "none";
+    document.getElementById("detail08").style.display = "none";
 
-    document.getElementById("cross01").style.display = "none";
+    document.getElementById("cross08").style.display = "none";
+
+}
+
+
+
+function plus09() {
+    document.getElementById("detail09").style.display = "block";
+
+    document.getElementById("cross09").style.display = "block";
+
+    document.getElementById("plus09").style.display = "none";
+
+}
+
+function cross09() {
+    document.getElementById("plus09").style.display = "block";
+
+    document.getElementById("detail09").style.display = "none";
+
+    document.getElementById("cross09").style.display = "none";
 
 }
