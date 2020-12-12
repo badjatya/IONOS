@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/889f7144ce.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+<body>
+   
+    <div class="containerEvent">
+        <div class="headingEventContainer">
+            <p>EVENT SCHEDULE PLAN</p>
+            <h1>IONOS - 2021 SCHEDULE.</h1>
+        </div>
+
+        <div class="eventDetailContainer">
+
+            <div class="eventDayContainer">
+              <div class="day day1" onclick="day1()">
+                  <a href="#">
+                      <p>FIRST DAY</p>
+                      <p><strong>MARCH 20, 2021</strong></p>
+                  </a>
+              </div>
+              <div class="day day2" onclick="day2()">
+                  <a href="#">
+                      <p>SECOND DAY</p>
+                      <p><strong>MARCH 21, 2021</strong></p>
+                  </a>
+              </div>
+              <div class="day day3" onclick="day3()">
+                  <a href="#">
+                      <p>THIRD DAY</p>
+                      <p><strong>MARCH 22, 2021</strong></p>
+                  </a>
+              </div>  
+            </div>
+
+            <div class="seprateDetailContainer">
+
+                <div id="oneDay">
+                    <!-- day1  -->
+                    <div class="seprateDetail">
+
+                        <!-- icon container  -->
+                        <div class="iconDetailContainer">
+
+                            <i class="fa fa-clock-o" aria-hidden="true">  09:30am - 10:30am</i><br><br>
+
+                            <i class="fa fa-map-marker" aria-hidden="true">  Room 1</i>
+
+                        </div>
+
+                        <!-- heading container  -->
+                        <div class="headingDetailContainer redHeading">
+                            <h3>BREAKFAST</h3>
+                        </div>
+
+                        <!-- Button container  -->
+                        <div class="buttonDetailContainer">
+                            <div id="plus01" onclick="plus01()">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+
+                            </div>
+                            <div id="cross01" onclick="cross01()">
+                                <i class="fa fa-times" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <!-- Details  -->
+                    <div id="detail01">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum facere soluta explicabo, itaque ea porro sit reprehenderit repudiandae autem aliquid recusandae repellat error sint esse doloribus libero amet sequi aspernatur!</p>
+                    </div><hr>
+
+                    <!-- day2  -->
+                    <div class="seprateDetail">
+                        <!-- icon container  -->
+                        <div class="iconDetailContainer">
+
+                            <i class="fa fa-clock-o" aria-hidden="true">  10:30am - 11:30am</i><br><br>
+
+                            <i class="fa fa-map-marker" aria-hidden="true">  Room 2</i>
+
+                        </div>
+
+                        <!-- heading container  -->
+                        <div class="headingDetailContainer redHeading">
+                            <h3><a href="#" class="headingHover">HACKATHON</a></h3>
+                        </div>
+
+                        <!-- Button container  -->
+                        <div class="buttonDetailContainer">
+                            <div id="plus02" onclick="plus02()">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+
+                            </div>
+                            <div id="cross02" onclick="cross02()">
+                                <i class="fa fa-times" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <!-- Details  -->
+                    <div id="detail02">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum facere soluta explicabo, itaque ea porro sit reprehenderit repudiandae autem aliquid recusandae repellat error sint esse doloribus libero amet sequi aspernatur!</p>
+                    </div><hr>
+                    </div>
+
+                    <!-- day3  -->
+                    <div class="seprateDetail">
+                        <!-- icon container  -->
+                        <div class="iconDetailContainer">
+
+                            <i class="fa fa-clock-o" aria-hidden="true">  12:30am - 2:30am</i><br><br>
+
+                            <i class="fa fa-map-marker" aria-hidden="true">  Room 3</i>
+
+                        </div>
+
+                        <!-- heading container  -->
+                        <div class="headingDetailContainer redHeading">
+                            <h3><a href="#" class="headingHover">GAME ZONE</a></h3>
+                        </div>
+
+                        <!-- Button container  -->
+                        <div class="buttonDetailContainer">
+                            <div id="plus03" onclick="plus03()">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+
+                            </div>
+                            <div id="cross03" onclick="cross03()">
+                                <i class="fa fa-times" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <!-- Details  -->
+                    <div id="detail03">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum facere soluta explicabo, itaque ea porro sit reprehenderit repudiandae autem aliquid recusandae repellat error sint esse doloribus libero amet sequi aspernatur!</p>
+                    </div><hr>
+
+                    
+
+
+
+
+
+                </div>
+
+
+
+
+
+                <div id="twoDay">
+                    <!-- day1  -->
+                    <div class="seprateDetail">
+
+                        <!-- icon container  -->
+                        <div class="iconDetailContainer">
+
+                            <i class="fa fa-clock-o" aria-hidden="true">  09:30am - 10:30am</i><br><br>
+
+                            <i class="fa fa-map-marker" aria-hidden="true">  Room 4</i>
+
+                        </div>
+
+                        <!-- heading container  -->
+                        <div class="headingDetailContainer redHeading">
+                            <h3>BREAKFAST</h3>
+                        </div>
+
+                        <!-- Button container  -->
+                        <div class="buttonDetailContainer">
+                            <div id="plus04" onclick="plus04()">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+
+                            </div>
+                            <div id="cross04" onclick="cross04()">
+                                <i class="fa fa-times" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <!-- Details  -->
+                    <div id="detail04">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum facere soluta explicabo, itaque ea porro sit reprehenderit repudiandae autem aliquid recusandae repellat error sint esse doloribus libero amet sequi aspernatur!</p>
+                    </div><hr>
+
+
+                    <!-- day2  -->
+                    <div class="seprateDetail">
+                    <!-- icon container  -->
+                    <div class="iconDetailContainer">
+
+                        <i class="fa fa-clock-o" aria-hidden="true">  10:30am - 11:30am</i><br><br>
+
+                        <i class="fa fa-map-marker" aria-hidden="true">  Room 5</i>
+
+                    </div>
+
+                    <!-- heading container  -->
+                    <div class="headingDetailContainer redHeading">
+                        <h3><a href="#" class="headingHover">HACKATHON</a></h3>
+                    </div>
+
+                    <!-- Button container  -->
+                    <div class="buttonDetailContainer">
+                        <div id="plus05" onclick="plus05()">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+
+                        </div>
+                        <div id="cross05" onclick="cross05()">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    
+                    <!-- Details  -->
+                    <div id="detail05">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum facere soluta explicabo, itaque ea porro sit reprehenderit repudiandae autem aliquid recusandae repellat error sint esse doloribus libero amet sequi aspernatur!</p>
+                    </div>
+                    </div>
+                    <hr>
+                    <!-- day3  -->
+                    <div class="seprateDetail">
+                        <!-- icon container  -->
+                        <div class="iconDetailContainer">
+
+                            <i class="fa fa-clock-o" aria-hidden="true">  12:30am - 2:30am</i><br><br>
+
+                            <i class="fa fa-map-marker" aria-hidden="true">  Room 6</i>
+
+                        </div>
+
+                        <!-- heading container  -->
+                        <div class="headingDetailContainer redHeading">
+                            <h3><a href="#" class="headingHover">GAME ZONE</a></h3>
+                        </div>
+
+                        <!-- Button container  -->
+                        <div class="buttonDetailContainer">
+                            <div id="plus06" onclick="plus06()">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+
+                            </div>
+                            <div id="cross06" onclick="cross06()">
+                                <i class="fa fa-times" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <!-- Details  -->
+                    <div id="detail06">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum facere soluta explicabo, itaque ea porro sit reprehenderit repudiandae autem aliquid recusandae repellat error sint esse doloribus libero amet sequi aspernatur!</p>
+                    </div><hr>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+                <div id="threeDay">
+                    <!-- day1  -->
+                    <div class="seprateDetail">
+
+                        <!-- icon container  -->
+                        <div class="iconDetailContainer">
+
+                            <i class="fa fa-clock-o" aria-hidden="true">  09:30am - 10:30am</i><br><br>
+
+                            <i class="fa fa-map-marker" aria-hidden="true">  Room 7</i>
+
+                        </div>
+
+                        <!-- heading container  -->
+                        <div class="headingDetailContainer redHeading">
+                            <h3>BREAKFAST</h3>
+                        </div>
+
+                        <!-- Button container  -->
+                        <div class="buttonDetailContainer">
+                            <div id="plus07" onclick="plus07()">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+
+                            </div>
+                            <div id="cross07" onclick="cross07()">
+                                <i class="fa fa-times" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <!-- Details  -->
+                    <div id="detail07">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum facere soluta explicabo, itaque ea porro sit reprehenderit repudiandae autem aliquid recusandae repellat error sint esse doloribus libero amet sequi aspernatur!</p>
+                    </div><hr>
+
+
+                    <!-- day2  -->
+                    <div class="seprateDetail">
+                    <!-- icon container  -->
+                    <div class="iconDetailContainer">
+
+                        <i class="fa fa-clock-o" aria-hidden="true">  10:30am - 11:30am</i><br><br>
+
+                        <i class="fa fa-map-marker" aria-hidden="true">  Room 8</i>
+
+                    </div>
+
+                    <!-- heading container  -->
+                    <div class="headingDetailContainer redHeading">
+                        <h3><a href="#" class="headingHover">HACKATHON</a></h3>
+                    </div>
+
+                    <!-- Button container  -->
+                    <div class="buttonDetailContainer">
+                        <div id="plus08" onclick="plus08()">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+
+                        </div>
+                        <div id="cross08" onclick="cross08()">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    
+                    <!-- Details  -->
+                    <div id="detail08">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum facere soluta explicabo, itaque ea porro sit reprehenderit repudiandae autem aliquid recusandae repellat error sint esse doloribus libero amet sequi aspernatur!</p>
+                    </div>
+                    </div>
+                    <hr>
+                    <!-- day3  -->
+                    <div class="seprateDetail">
+                        <!-- icon container  -->
+                        <div class="iconDetailContainer">
+
+                            <i class="fa fa-clock-o" aria-hidden="true">  12:30am - 2:30am</i><br><br>
+
+                            <i class="fa fa-map-marker" aria-hidden="true">  Room 9</i>
+
+                        </div>
+
+                        <!-- heading container  -->
+                        <div class="headingDetailContainer redHeading">
+                            <h3><a href="#" class="headingHover">GAME ZONE</a></h3>
+                        </div>
+
+                        <!-- Button container  -->
+                        <div class="buttonDetailContainer">
+                            <div id="plus09" onclick="plus09()">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+
+                            </div>
+                            <div id="cross09" onclick="cross09()">
+                                <i class="fa fa-times" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <!-- Details  -->
+                    <div id="detail09">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum facere soluta explicabo, itaque ea porro sit reprehenderit repudiandae autem aliquid recusandae repellat error sint esse doloribus libero amet sequi aspernatur!</p>
+                    </div>
+
+                </div>
+                
+
+            
+
+               
+
+
+
+                
+
+                
+                    
+                
+            </div>
+            
+        </div>
+    </div>
+    
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

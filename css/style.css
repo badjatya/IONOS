@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.containerEvent{
+    margin: auto;
+    width: 80%;
+    border: 3px solid red;
+}
+
+.headingEventContainer{
+    margin: auto;
+    text-align: center;
+}
+.headingEventContainer h1{
+    font-size: 50px;
+    color: #26264B;
+}
+
+.headingEventContainer p{
+    font-size: 20px;
+    color: #fd3a69;
+}
+.eventDayContainer{
+    display: flex;
+}
+
+.eventDayContainer .day{
+    
+    width: 35%;
+    height: 20%;
+    vertical-align: center;
+    text-align: center;
+}
+
+.eventDayContainer .day a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.eventDayContainer .day:hover{
+    background-color: #79a3b1;
+}
+
+.eventDayContainer .day a:hover{
+    color: black;
+}
+
+.day1{
+    background-color: #120078;
+}
+
+.day2{
+    background-color: #9d0191;
+}
+
+.day3{
+    background-color: #fd3a69;
+}
+
+
+.seprateDetail{
+    display: flex;
+}
+
+.iconDetailContainer{
+    width: 23%;
+    padding: 25px 25px;
+}
+
+.headingDetailContainer{
+    /* border: 3px solid yellow; */
+    width: 35%;
+    padding: 12px 8px;
+
+}
+
+.headingDetailContainer h3{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.redHeading h3{
+    color: red;
+}
+
+.buttonDetailContainer{
+    padding: 10px 10px;
+    width: 20%;
+}
+
+#cross01{
+    display: none;
+    margin: 20px 0px 10px 150px;
+    font-size: 30px;
+}
+
+#cross02{
+    display: none;
+    margin: 20px 0px 10px 150px;
+    font-size: 30px;
+}
+
+#cross03{
+    display: none;
+    margin: 20px 0px 10px 150px;
+    font-size: 30px;
+}
+
+#cross04{
+    display: none;
+    margin: 20px 0px 10px 150px;
+    font-size: 30px;
+}
+
+#cross05{
+    display: none;
+    margin: 20px 0px 10px 150px;
+    font-size: 30px;
+}
+
+#cross06{
+    display: none;
+    margin: 20px 0px 10px 150px;
+    font-size: 30px;
+}
+
+#cross07{
+    display: none;
+    margin: 20px 0px 10px 150px;
+    font-size: 30px;
+}
+
+#cross08{
+    display: none;
+    margin: 20px 0px 10px 150px;
+    font-size: 30px;
+}
+
+#cross09{
+    display: none;
+    margin: 20px 0px 10px 150px;
+    font-size: 30px;
+}
+
+#plus01 i{
+    margin: 20px 0px 10px 150px;
+    font-size: 30px;
+}
+
+#plus02 i{
+    margin: 20px 0px 10px 150px;
+    font-size: 30px;
+}
+
+#plus03 i{
+    margin: 20px 0px 10px 150px;
+    font-size: 30px;
+}
+
+#plus04 i{
+    margin: 20px 0px 10px 150px;
+    font-size: 30px;
+}
+
+#plus05 i{
+    margin: 20px 0px 10px 150px;
+    font-size: 30px;
+}
+
+#plus06 i{
+    margin: 20px 0px 10px 150px;
+    font-size: 30px;
+}
+
+#plus07 i{
+    margin: 20px 0px 10px 150px;
+    font-size: 30px;
+}
+
+#plus08 i{
+    margin: 20px 0px 10px 150px;
+    font-size: 30px;
+}
+
+#plus09 i{
+    margin: 20px 0px 10px 150px;
+    font-size: 30px;
+}
+
+#detail01{
+    display: none;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+#detail02{
+    display: none;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+#detail03{
+    display: none;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+#detail04{
+    display: none;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+#detail05{
+    display: none;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+#detail06{
+    display: none;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+#detail07{
+    display: none;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+#detail08{
+    display: none;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+#detail09{
+    display: none;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.headingDetailContainer h3 a{
+    color: black;
+    text-decoration: none;
+}
+
+.headingDetailContainer h3 a:hover{
+    color: red;
+}
+
+#twoDay{
+    display: none;
+}
+
+#threeDay{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
