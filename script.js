@@ -6,18 +6,23 @@ function day1() {
     DAY1.style.display = "block";
     DAY2.style.display = "none";
     DAY3.style.display = "none";
+    document.getElementById("hello").style.display = "flex";
+
 }
 
 function day2() {
     DAY2.style.display = "block";
     DAY1.style.display = "none";
     DAY3.style.display = "none";
+    document.getElementById("hello").style.display = "none";
 }
 
 function day3() {
     DAY3.style.display = "block";
     DAY1.style.display = "none";
     DAY2.style.display = "none";
+    document.getElementById("hello").style.display = "none";
+
 }
 
 

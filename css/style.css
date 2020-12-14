@@ -8,6 +8,8 @@ body{
     margin: auto;
     width: 80%;
     border: 3px solid red;
+    border-radius: 10px;
+    margin-top: 30px;
 }
 
 .headingEventContainer{
@@ -275,7 +277,6 @@ body{
 .plusCross:hover{
     color: red;
 }
-
 
 
 
